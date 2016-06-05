@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost", "easypost\easypost.csproj", "{4823FB56-B3B0-4A0C-8766-544EBE571E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Tests", "easypost.Tests\easypost.Tests.csproj", "{BCB407BB-5113-4060-924D-3FC5CBFCE9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.WWW", "easypost.WWW\easypost.WWW.csproj", "{EFA8F4A1-364E-4055-9604-F6E5EC51401A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Tests.Unit", "easypost.Tests.Unit\easypost.Tests.Unit.csproj", "{158E4718-D2A3-4F32-9B30-7C18102147F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Tests.Integration", "easypost.Tests.Integration\easypost.Tests.Integration.csproj", "{2C8D0C2C-2A91-4F11-A54F-16714FF584F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client.CLI", "easypost.Client.CLI\easypost.Client.CLI.csproj", "{7821F7B1-A037-4445-B441-1A2A5D9AD039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client.CLI.Tests.Integration", "easypost.Client.CLI.Tests.Integration\easypost.Client.CLI.Tests.Integration.csproj", "{11DAED0A-05F4-4C09-BF15-2F1928138909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client.CLI.Tests.Unit", "easypost.Client.CLI.Tests.Unit\easypost.Client.CLI.Tests.Unit.csproj", "{99CE00E8-F89D-46C7-B1E3-2E5BBF36382F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client", "easypost.Client\easypost.Client.csproj", "{899414BF-3AA1-43F6-8B6A-31960B5F3A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client.Tests.Unit", "easypost.Client.Tests.Unit\easypost.Client.Tests.Unit.csproj", "{8A552A89-44A7-47A7-A97E-FF075B865373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Client.Tests.Integration", "easypost.Client.Tests.Integration\easypost.Client.Tests.Integration.csproj", "{48864C95-BA95-40A0-B927-CF5F201206FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easypost.Processes", "easypost.Processes\easypost.Processes.csproj", "{A551B5A3-6745-49C6-B799-34BE0000FF91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DAED0A-05F4-4C09-BF15-2F1928138909}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11DAED0A-05F4-4C09-BF15-2F1928138909}.Debug|x86.Build.0 = Debug|Any CPU
+		{11DAED0A-05F4-4C09-BF15-2F1928138909}.Release|x86.ActiveCfg = Release|Any CPU
+		{11DAED0A-05F4-4C09-BF15-2F1928138909}.Release|x86.Build.0 = Release|Any CPU
+		{158E4718-D2A3-4F32-9B30-7C18102147F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{158E4718-D2A3-4F32-9B30-7C18102147F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{158E4718-D2A3-4F32-9B30-7C18102147F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{158E4718-D2A3-4F32-9B30-7C18102147F7}.Release|x86.Build.0 = Release|Any CPU
+		{2C8D0C2C-2A91-4F11-A54F-16714FF584F1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C8D0C2C-2A91-4F11-A54F-16714FF584F1}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C8D0C2C-2A91-4F11-A54F-16714FF584F1}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C8D0C2C-2A91-4F11-A54F-16714FF584F1}.Release|x86.Build.0 = Release|Any CPU
+		{4823FB56-B3B0-4A0C-8766-544EBE571E9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4823FB56-B3B0-4A0C-8766-544EBE571E9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{4823FB56-B3B0-4A0C-8766-544EBE571E9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{4823FB56-B3B0-4A0C-8766-544EBE571E9D}.Release|x86.Build.0 = Release|Any CPU
+		{48864C95-BA95-40A0-B927-CF5F201206FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48864C95-BA95-40A0-B927-CF5F201206FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{48864C95-BA95-40A0-B927-CF5F201206FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{48864C95-BA95-40A0-B927-CF5F201206FF}.Release|x86.Build.0 = Release|Any CPU
+		{7821F7B1-A037-4445-B441-1A2A5D9AD039}.Debug|x86.ActiveCfg = Debug|x86
+		{7821F7B1-A037-4445-B441-1A2A5D9AD039}.Debug|x86.Build.0 = Debug|x86
+		{7821F7B1-A037-4445-B441-1A2A5D9AD039}.Release|x86.ActiveCfg = Release|x86
+		{7821F7B1-A037-4445-B441-1A2A5D9AD039}.Release|x86.Build.0 = Release|x86
+		{899414BF-3AA1-43F6-8B6A-31960B5F3A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{899414BF-3AA1-43F6-8B6A-31960B5F3A8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{899414BF-3AA1-43F6-8B6A-31960B5F3A8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{899414BF-3AA1-43F6-8B6A-31960B5F3A8A}.Release|x86.Build.0 = Release|Any CPU
+		{8A552A89-44A7-47A7-A97E-FF075B865373}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A552A89-44A7-47A7-A97E-FF075B865373}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A552A89-44A7-47A7-A97E-FF075B865373}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A552A89-44A7-47A7-A97E-FF075B865373}.Release|x86.Build.0 = Release|Any CPU
+		{99CE00E8-F89D-46C7-B1E3-2E5BBF36382F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99CE00E8-F89D-46C7-B1E3-2E5BBF36382F}.Debug|x86.Build.0 = Debug|Any CPU
+		{99CE00E8-F89D-46C7-B1E3-2E5BBF36382F}.Release|x86.ActiveCfg = Release|Any CPU
+		{99CE00E8-F89D-46C7-B1E3-2E5BBF36382F}.Release|x86.Build.0 = Release|Any CPU
+		{A551B5A3-6745-49C6-B799-34BE0000FF91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A551B5A3-6745-49C6-B799-34BE0000FF91}.Debug|x86.Build.0 = Debug|Any CPU
+		{A551B5A3-6745-49C6-B799-34BE0000FF91}.Release|x86.ActiveCfg = Release|Any CPU
+		{A551B5A3-6745-49C6-B799-34BE0000FF91}.Release|x86.Build.0 = Release|Any CPU
+		{BCB407BB-5113-4060-924D-3FC5CBFCE9F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCB407BB-5113-4060-924D-3FC5CBFCE9F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCB407BB-5113-4060-924D-3FC5CBFCE9F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCB407BB-5113-4060-924D-3FC5CBFCE9F8}.Release|x86.Build.0 = Release|Any CPU
+		{EFA8F4A1-364E-4055-9604-F6E5EC51401A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFA8F4A1-364E-4055-9604-F6E5EC51401A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFA8F4A1-364E-4055-9604-F6E5EC51401A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFA8F4A1-364E-4055-9604-F6E5EC51401A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ipfs.echo.WWW\ipfs.echo.WWW.csproj
+	EndGlobalSection
+EndGlobal
