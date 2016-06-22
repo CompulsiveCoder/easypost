@@ -39,10 +39,13 @@
     <Compile Include="KeyFolderCreator.cs" />
     <Compile Include="FileAppender.cs" />
     <Compile Include="FileNamer.cs" />
-    <Compile Include="PostManager.cs" />
     <Compile Include="Authenticator.cs" />
     <Compile Include="PostAction.cs" />
     <Compile Include="FileOverwriter.cs" />
+    <Compile Include="EmailVerifier.cs" />
+    <Compile Include="PostFolderManager.cs" />
+    <Compile Include="PostFolderCreator.cs" />
+    <Compile Include="PostFolderInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

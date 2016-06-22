@@ -3,13 +3,13 @@ using System.IO;
 
 namespace easypost
 {
-    public class PostManager
+    public class PostFolderManager
     {
         public string DataDirectory { get; set; }
 
         public string ContentDirectory { get;set; }
 
-        public string FolderName { get;set; }
+        public string FolderId { get;set; }
 
         public string SecurityKey { get;set; }
 
@@ -21,11 +21,11 @@ namespace easypost
 
         public Authenticator Authentication { get; set; }
 
-        public PostManager (string dataDirectory, string contentDirectory, string folderName, string securityKey)
+        public PostFolderManager (string dataDirectory, string contentDirectory, string folderName, string securityKey)
         {
             DataDirectory = dataDirectory;
             ContentDirectory = contentDirectory;
-            FolderName = folderName;
+            FolderId = folderName;
             SecurityKey = securityKey;
             Overwriter = new FileOverwriter (contentDirectory, folderName, securityKey);
             Appender = new FileAppender (contentDirectory, folderName, securityKey);
@@ -46,14 +46,14 @@ namespace easypost
 
         public void Overwrite(string filePath, string text)
         {
-            Authentication.Authenticate (FolderName, SecurityKey);
+            Authentication.Authenticate (FolderId, SecurityKey);
 
             throw new NotImplementedException ();
         }
 
         public void Post(string filePath, string text, PostAction action)
         {
-            Authentication.Authenticate (FolderName, SecurityKey);
+            Authentication.Authenticate (FolderId, SecurityKey);
 
             if (action == PostAction.Overwrite)
                 Overwriter.Overwrite(filePath, text);

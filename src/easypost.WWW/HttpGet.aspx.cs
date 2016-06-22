@@ -37,7 +37,7 @@ namespace easypost.WWW
             var contentFolder = ConfigurationSettings.AppSettings ["ContentFolder"];
 
             if (!String.IsNullOrEmpty (TextData)) {
-                var manager = new PostManager (dataFolder, contentFolder, FolderName, SecurityKey);
+                var manager = new PostFolderManager (dataFolder, contentFolder, FolderName, SecurityKey);
                     
                 manager.Post (FileName, TextData, Action);
 

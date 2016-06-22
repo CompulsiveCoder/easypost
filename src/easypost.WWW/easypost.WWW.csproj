@@ -38,25 +38,18 @@
     <Content Include="Global.asax" />
     <Content Include="web.config" />
     <Content Include="styles.css" />
-    <Content Include="CreateKey.aspx" />
-    <Content Include="Default.aspx" />
     <Content Include="HttpGet.aspx" />
+    <Content Include="CreateFolder.aspx" />
+    <Content Include="Folder.aspx" />
+    <Content Include="PostData.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Start.aspx" />
+    <Content Include="PostResult.aspx" />
+    <Content Include="PleaseVerify.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="CreateKey.aspx.cs">
-      <DependentUpon>CreateKey.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CreateKey.aspx.designer.cs">
-      <DependentUpon>CreateKey.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="HttpTool.cs" />
     <Compile Include="HttpGet.aspx.designer.cs">
@@ -64,6 +57,48 @@
     </Compile>
     <Compile Include="HttpGet.aspx.cs">
       <DependentUpon>HttpGet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateFolder.aspx.cs">
+      <DependentUpon>CreateFolder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateFolder.aspx.designer.cs">
+      <DependentUpon>CreateFolder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Folder.aspx.cs">
+      <DependentUpon>Folder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Folder.aspx.designer.cs">
+      <DependentUpon>Folder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostData.aspx.cs">
+      <DependentUpon>PostData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostData.aspx.designer.cs">
+      <DependentUpon>PostData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start.aspx.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Start.aspx.designer.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostResult.aspx.cs">
+      <DependentUpon>PostResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostResult.aspx.designer.cs">
+      <DependentUpon>PostResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PleaseVerify.aspx.cs">
+      <DependentUpon>PleaseVerify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PleaseVerify.aspx.designer.cs">
+      <DependentUpon>PleaseVerify.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

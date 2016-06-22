@@ -11,22 +11,18 @@
 namespace easypost.WWW {
 	
 	
-	public partial class Default {
+	public partial class CreateFolder {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.WebControls.Button CreateKeyButton;
+		protected System.Web.UI.WebControls.TextBox EmailAddress;
 		
-		protected System.Web.UI.WebControls.TextBox FolderName;
+		protected System.Web.UI.WebControls.TextBox FolderTitle;
+		
+		protected System.Web.UI.WebControls.Button CreateButton;
+		
+		protected System.Web.UI.WebControls.TextBox FolderId;
 		
 		protected System.Web.UI.WebControls.TextBox SecurityKey;
-		
-		protected System.Web.UI.WebControls.RadioButtonList CommandOption;
-		
-		protected System.Web.UI.WebControls.TextBox TextData;
-		
-		protected System.Web.UI.WebControls.TextBox File;
-		
-		protected System.Web.UI.WebControls.Button GoButton;
 	}
 }

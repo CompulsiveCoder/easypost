@@ -13,7 +13,7 @@ namespace easypost
 			var keys = new KeySet ();
 			//keys.DeviceId = GenerateKey (); // TODO: Remove if not needed
 			keys.SecurityKey = GenerateKey ();
-			keys.FolderName = GenerateKey ();
+			keys.FolderId = GenerateKey ();
 
 			return keys;
 		}

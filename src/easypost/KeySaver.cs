@@ -26,7 +26,7 @@ namespace easypost
 
 		public string GetKeySetFilePath(KeySet keys)
 		{
-			return Path.Combine (DataFolder, keys.FolderName);
+			return Path.Combine (DataFolder, keys.FolderId);
 		}
 	}
 }

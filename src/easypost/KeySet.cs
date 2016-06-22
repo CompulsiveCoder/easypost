@@ -6,7 +6,7 @@ namespace easypost
 	{
 		//public string DeviceId; // TODO: Remove if not needed
 		public string SecurityKey;
-		public string FolderName;
+		public string FolderId;
 	}
 }
 
