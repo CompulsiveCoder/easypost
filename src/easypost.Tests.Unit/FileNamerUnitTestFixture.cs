@@ -5,7 +5,7 @@ using System.IO;
 
 namespace easypost.Tests
 {
-    [TestFixture]
+    [TestFixture(Category="Unit")]
     public class FileNamerUnitTestFixture
     {
         [Test]

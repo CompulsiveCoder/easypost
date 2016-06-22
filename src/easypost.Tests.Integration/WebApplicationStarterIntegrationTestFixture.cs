@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace easypost.Tests.Integration
 {
-    [TestFixture]
+    [TestFixture(Category="Integration")]
     public class WebApplicationStarterIntegrationTestFixture : BaseIntegrationTestFixture
     {
         [Test]
