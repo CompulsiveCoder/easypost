@@ -5,7 +5,7 @@ using easypost.Tests.Integration;
 
 namespace easypost.Client.Tests.Integration
 {
-    [TestFixture]
+    [TestFixture(Category="Integration")]
     public class PostClientIntegrationTestFixture : BaseIntegrationTestFixture
     {
         [Test]

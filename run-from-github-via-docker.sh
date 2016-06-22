@@ -10,4 +10,4 @@ fi
 
 echo "Branch: $BRANCH"
 
-docker run -d -p 8088:8088 compulsivecoder/ubuntu-mono /bin/bash -c "curl https://raw.githubusercontent.com/CompulsiveCoder/easypost/$BRANCH/run-from-github.sh | sh -s $BRANCH"
+docker run -it -p 8088:8088 compulsivecoder/ubuntu-mono /bin/bash -c "curl https://raw.githubusercontent.com/CompulsiveCoder/easypost/$BRANCH/run-from-github.sh | sh -s $BRANCH"

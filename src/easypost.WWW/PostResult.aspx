@@ -41,7 +41,7 @@
         <asp:Button runat="server" id="Repost" text="Repost" />
         <h2>Return</h2>
         <p>Return to the post data form to enter different data:</p>
-        <a href="PostData.aspx?file=<%= FileName %>&folder=<%= FolderName %>">return to form</a>
+        <a href="PostData.aspx?file=<%= FileName %>&folder=<%= FolderId %>">return to form</a>
     </div>
  </form>
 </body>
