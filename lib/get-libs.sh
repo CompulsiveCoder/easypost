@@ -1,4 +1,4 @@
-echo "Getting libraries for easy-post project"
+echo "Getting libraries for easypost project"
 echo "Dir: $PWD"
 
 NUGET_FILE="nuget.exe"
@@ -10,8 +10,3 @@ fi
 
 mono nuget.exe install nunit -version 2.6.4
 mono nuget.exe install nunit.runners -version 2.6.4
-
-# Copy libraries to the submodule to speed up the build
-cp nuget.exe ../mod/ipfs-cs/lib
-cp NUnit.2.6.4/ ../mod/ipfs-cs/lib -r
-cp NUnit.Runners.2.6.4/ ../mod/ipfs-cs/lib -r

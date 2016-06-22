@@ -10,7 +10,13 @@ fi
 
 echo "Branch: $BRANCH"
 
-git clone https://github.com/CompulsiveCoder/easypost.git --branch $BRANCH
-cd easypost
+TMP_DIR="_tmp/easypost"
+
+if [ -d "$TMP_DIR" ]; then
+    rm $TMP_DIR -rf
+fi
+
+git clone https://github.com/CompulsiveCoder/easypost.git $TMP_DIR --branch $BRANCH
+cd $TMP_DIR
 
 sh init-build-test.sh
